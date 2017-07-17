@@ -1,0 +1,12 @@
+Dear {{USERNAME}},
+
+you have registerd on {{APPLICATION_NAME}} using this E-Mail-Adress.
+Please verify this email using the following link. Simply click on it or copy it into your browser:
+
+{{VERIFICATION_LINK}}
+
+If you did not register on {{APPLICATION_NAME}}, simply ignore and delete this message.
+
+Sincerly yours
+
+{{APPLICATION_NAME}}-Team

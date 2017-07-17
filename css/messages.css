@@ -1,0 +1,88 @@
+.message-list {
+	height:50px;
+	padding:5px 10px;
+	border-bottom:1px solid #F5F5F5;
+	border-top:1px solid #F5F5F5;
+}
+
+.message-list:hover {
+	background-color:#f5f5f5;
+}
+
+.messages-list {
+	height:300px;
+	overflow:auto;
+}
+
+.messages-list a { color:black; }
+.messages-list a:link { color:#00000; }
+.messages-list a:visited { color:#00000; }
+.messages-list a:hover { color:#00000; text-decoration:none; }
+.nessages a:active { color:#00000; }
+
+.message-list> .msg_user, .message > .msg_user {
+	font-weight:bold;	
+}
+
+.message-list > .msg_preview, .message-list > .msg_time, .message > .msg_time {
+	color:#999;
+}
+
+.message-list > .msg_read {
+	color:#ccc;
+}
+
+.messages-list > a > .new {
+	background-color:#FFECD9;
+	border-left:1px solid #FFCB97;
+}
+
+.messages-list > a > .new:hover {
+	background-color:#FFF5F0;
+	border-left:1px solid #FFECD9;
+}
+
+.message-view {
+	height:300px;
+	border:1px solid #E5E5E5;
+	padding:5px;
+	overflow:auto;
+	overflow-x:hidden;
+}
+
+.msg-link>.active {
+	color:#ffffff;
+	background-color:#E9A914;
+}
+
+.msg-link>.active>.msg_time {
+	color:#ffffff;	
+}
+
+.msg-link>.active>.msg_preview, .msg-link>.active>.msg_read {
+	color:#FFD1A4;
+}
+
+.msg-head {
+	width:100%;
+	padding:5px;
+	font-size:24px;
+	font-weight:bold;
+	background-color:white;
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+
+.msg-bottom {
+	width:100%;
+	padding:5px;
+	background-color:white;
+	-webkit-box-shadow: 0px -5px 5px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -5px 5px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px -5px 5px -5px rgba(0,0,0,0.75);
+}
+
+.no_msg_selected {
+	color:#999;
+}

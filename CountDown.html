@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Unbenanntes Dokument</title>
+</head>
+
+<body>
+<p>Lorem Ipsum</p>
+<p id="demo"></p>
+
+<script>
+var minutes = 1;
+var seconds = 0;
+var counter;
+var newElement = document.getElementById("demo");
+newElement.innerHTML = "1 m 0s";
+var id;
+
+
+id = setInterval(function() {
+	if(seconds == 0) {
+		seconds = 59;
+		minutes--;
+	} else {
+		seconds--;
+	}
+    if(minutes < 0) {
+        window.close();
+    } else {
+        newElement.innerHTML = minutes +"m "+seconds+"s";
+    }
+}, 1000);
+</script>
+</body>
+</html>

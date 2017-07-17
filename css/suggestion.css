@@ -1,0 +1,24 @@
+ul.suggestions {
+	position:absolute;
+	width:300px;
+	display:none;
+	list-style:none;
+	padding-left:0;
+	background-color:#ffffff;
+	border:1px solid #CCC;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+ul.suggestions > li {
+	padding:10px;
+}
+
+ul.suggestions > li:hover {
+	background-color:#FFF5F0;	
+}
+
+ul.suggestions>li>.sug-match {
+	background-color:#EAF4FF;
+	color:#359AFF;	
+}
